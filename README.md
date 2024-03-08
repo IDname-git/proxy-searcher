@@ -29,7 +29,8 @@ Download now and enjoy seamless, unrestricted access to the web!
 
 # Tutorial
 
-1. Download the Script from The Releases tab
-2. Open the Command Prompt in the folder where the script is located
-3. Type ' python main.py '
-4. Fill out the Questions
+1. Obtain the script from the "Releases" tab by downloading it.
+2. Navigate to the directory containing the script in your file explorer.
+3. Open the Command Prompt within the script's directory.
+4. Execute the script by entering the command 'python main.py' into the Command Prompt.
+5. Follow the prompts to fill out the required information.
