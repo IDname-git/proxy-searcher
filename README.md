@@ -25,12 +25,11 @@ Download now and enjoy seamless, unrestricted access to the web!
 
 
 # Requirments
--Python 3.5+ (I am not completly sure)
+windows
 
 # Tutorial
 
-1. Obtain the script from the "Releases" tab by downloading it.
-2. Navigate to the directory containing the script in your file explorer.
-3. Open the Command Prompt within the script's directory.
-4. Execute the script by entering the command 'python main.py' into the Command Prompt.
-5. Follow the prompts to fill out the required information.
+1. Obtain the executable from the "Releases" tab by downloading it.
+2. Navigate to the directory containing the executable in your file explorer.
+3. Open the executable.
+4. Follow the prompts to fill out the required information.
