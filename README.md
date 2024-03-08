@@ -29,7 +29,7 @@ windows
 
 # Tutorial
 
-1. Obtain the executable from the "Releases" tab by downloading it.
+1. Obtain the executable from the "[Releases](https://github.com/IDname-git/proxy-scraper/releases/tag/Release)" tab by downloading it.
 2. Navigate to the directory containing the executable in your file explorer.
 3. Open the executable.
 4. Follow the prompts to fill out the required information.
