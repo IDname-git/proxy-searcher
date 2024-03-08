@@ -31,5 +31,5 @@ Download now and enjoy seamless, unrestricted access to the web!
 
 1. Download the Script from The Releases tab
 2. Open the Command Prompt in the folder where the script is located
-3. Type python main.py
+3. Type ' python main.py '
 4. Fill out the Questions
