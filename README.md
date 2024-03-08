@@ -10,7 +10,8 @@ ProxyScraper is the solution, for accessing free proxies to enhance your online 
 
 
 # Requirments
-windows
+For the Python version: Python 3.6+ (idk exactly)
+For the .exe Version: Windows
 
 # Tutorial
 ### Python tutorial
