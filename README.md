@@ -22,3 +22,14 @@ Bid farewell to costly proxy subscriptions. ProxyScraper provides free access to
 
 Unlock the full potential of the internet and take control of your online experience with ProxyScraper. 
 Download now and enjoy seamless, unrestricted access to the web!
+
+
+# Requirments
+-Python 3.5+ (I am not completly sure)
+
+# Tutorial
+
+1. Download the Script from The Releases tab
+2. Open the Command Prompt in the folder where the script is located
+3. Type python main.py
+4. Fill out the Questions
