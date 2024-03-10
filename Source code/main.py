@@ -5,7 +5,7 @@ import requests
 #Made by IDname 
 #DC: IDname
 
-print('Version 1.1 Made by IDname')
+print('Version 1.2 Made by IDname')
 print('█▀█ █▀█ █▀█ ▀▄▀ █▄█   █▀ █▀▀ █▀█ ▄▀█ █▀█ █▀▀ █▀█   █░█ ▄█')
 print('█▀▀ █▀▄ █▄█ █░█ ░█░   ▄█ █▄▄ █▀▄ █▀█ █▀▀ ██▄ █▀▄   ▀▄▀ ░█')
 
