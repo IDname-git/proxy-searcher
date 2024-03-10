@@ -16,19 +16,34 @@ ProxyRequestoutputsave = 'y'
 Proxyregion = 'all'
 ProxyTimeout = 100
 ProxyProtocol= 'http'
-
+inputxt ='>>>'
+ExitASK = 'y'
 #Options
 print('Recommended: de, en , pl , fr , be , in , it , hr , at , se, rs , es , to , tr , all')
 print('There are many more. Just use the ISO-3166-1 standard')
-Proxyregion = input ('Which Region do you want to use ? Enter to use all')
+print('Which Region do you want to use ? Enter to use all')
+Proxyregion = input (inputxt)
+if Proxyregion =='':
+       Proxyregion='all'
 print('')
 print('Recommended: 100 Curently:',ProxyTimeout)
-ProxyTimeout = input ('What should be the Proxy timeout ? Enter to use 100 (Recommended)')
+print('What should be the Proxy timeout ? Enter to use 100 (Recommended)')
+ProxyTimeout = input (inputxt)
+if ProxyTimeout == '':
+       ProxyTimeout = '100'
 print('')
 print('Aviable: http , socks4 , socks5')
-ProxyProtocol = input('Which Protocol do you want to use ? Enter to use http')
+print('Which Protocol do you want to use ? Enter to use http')
+ProxyProtocol = input(inputxt)
+if ProxyProtocol =='':
+       ProxyProtocol = 'http'
+print('')
 print('Aviable: elite , anonymous , transparent or all')
-ProxyAnonymity = input('Which Anonymity do you want to use ? Enter for elite (Recommended)')
+print('Which Anonymity do you want to use ? Enter for elite (Recommended)')
+ProxyAnonymity = input(inputxt)
+if ProxyAnonymity == '':
+       ProxyAnonymity ='elite'
+print('')
 print('Checking Aviable Proxies ...')
 
 #Request
@@ -41,8 +56,8 @@ for key in API_Data:{
 ProxyRequestoutput = requests.get(ProxyRequestURL)
 
 #Display Results
-print('Protocol:'+ProxyProtocol+' | Timeout:'+ProxyTimeout+' | Country: '+ Proxyregion +' | Anonymity: Elite' )
-time.sleep(1.0)
+print('Protocol:'+ProxyProtocol+' | Timeout:'+ProxyTimeout+' | Country: '+ Proxyregion +' | Anonymity: '+ProxyAnonymity+'' )
+time.sleep(1.5)
 if ProxyRequestoutput.text == '':
          print('No Proxies aviable or Wrong input')
          print('Try a higher Proxy Timeout')
@@ -51,19 +66,12 @@ else:
          ProxyRequestoutputsave = input ("Do you want to save these result's to a file ? y/n")
           #Save Result
          if ProxyRequestoutputsave == 'y':
-          with open("ProxyRequestoutput.txt", "w") as f: 
+          with open("Proxyresult.txt", "w") as f: 
                f.write(ProxyRequestoutput.text)
          else:
                 print('')
-# Exit ASK                
-ExitASK = input("Do you want to restart ? y/n")
-if ExitASK == ('y'):
-       os.system('cmd /k python main.py')
-else:
-        print('Exit in 3s')
-        time.sleep(1.0)
-        print('Exit in 2s')
-        time.sleep(1.0)
-        print('Exit in 1s')
-        time.sleep(1.0)
-        os.system('exit')
+
+print('To exit hit three times Enter')
+ExitASK = input("3")
+ExitASK = input("2")
+ExitASK = input("1")                     
