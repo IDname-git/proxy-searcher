@@ -1,7 +1,7 @@
 
-# Proxy Scraper
+# proxy-searcher
 
-ProxyScraper is the solution, for accessing free proxies to enhance your online activities. Whether you want to boost your privacy access geo restricted content or perform web scraping tasks ProxyScraper offers the proxies you require at no cost.
+proxy-searcher is the solution, for accessing free proxies to enhance your online activities. Whether you want to boost your privacy access geo restricted content or perform web scraping tasks ProxyScraper offers the proxies you require at no cost.
 
 # Key Features
 - Get Proxies easy and free
